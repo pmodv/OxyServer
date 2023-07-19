@@ -2,8 +2,8 @@ using Oxygen,HTTP
 using OxyServer
 
 
-
-
+# init model and start server
+bootServer()
 
 
 
