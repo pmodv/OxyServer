@@ -3,8 +3,7 @@ using OxyServer
 
 
 
-# initialize default model instance with value 3000
-model = Model(3000)
+
 
 
 
@@ -64,7 +63,4 @@ end
     terminate()
     return HTTP.Response(200,  "Server is Shutdown")
 end
-
-
-serve(host="0.0.0.0")
 
