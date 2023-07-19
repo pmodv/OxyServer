@@ -1,5 +1,5 @@
 using Oxygen,HTTP
-#using OxyServer 
+using OxyServer 
 
 function setValue(m::Model,a::Int32)
     # mutate existing model
