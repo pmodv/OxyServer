@@ -86,5 +86,5 @@ end
     return HTTP.Response(200,  "Server is Shutdown")
 end
 
-serve()
+serve(host="0.0.0.0")
 
