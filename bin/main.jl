@@ -79,5 +79,6 @@ end
     return HTTP.Response(200,  "Server is Shutdown")
 end
 
-# defined in OxyServer.jl
+# defined in OxyServer.jl - NOTE DEFAULT PORT IS 8080
+# MAKE SURE TO SET PORT TO 8080 IN JULIAHUB WHEN LAUNCHING APPLICATION
 bootServer()
