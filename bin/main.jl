@@ -6,11 +6,6 @@ using OxyServer
 # Model struct defined in OxyServer.jl
 model = Model(3000)
 
-# Dummy simulation function
-function simulate(a::Int32)
-    model = Model(a)
-    println("Simulation Complete for model with parameter ",model.x)
-end
 
 function setValue(m::Model,a::Int32)
     # mutate existing model
