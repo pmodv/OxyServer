@@ -2,6 +2,12 @@ using Oxygen,HTTP
 using OxyServer
 
 
+
+# initialize default model instance with value 3000
+model = Model(3000)
+
+
+
 # "Interpolate" variable x in the endpoint
 @get "/set/{x}" function(req,x::Int32) 
 
