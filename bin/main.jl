@@ -16,6 +16,12 @@ function getModel()
 end
 
 
+
+# initialize default model instance with value 3000
+# Model struct defined in OxyServer.jl
+model = Model(3000)
+
+
 # "Interpolate" variable x in the endpoint
 @get "/set/{x}" function(req,x::Int32) 
 
