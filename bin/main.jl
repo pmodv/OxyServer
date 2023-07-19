@@ -3,6 +3,7 @@ using OxyServer
 
 
 # initialize default model instance with value 3000
+# Model struct defined in OxyServer.jl
 model = Model(3000)
 
 # Dummy simulation function
