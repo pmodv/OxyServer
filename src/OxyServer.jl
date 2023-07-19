@@ -1,7 +1,7 @@
 module OxyServer
 
 # every symbol must be listed below for export(i.e. used elsewhere)
-export Model, simulate, setValue, getValue, getModel
+export Model, simulate, setValue, getValue, getModel, bootServer
 
 # mutable because we will update the field value of an existing struct in this server
 mutable struct Model
