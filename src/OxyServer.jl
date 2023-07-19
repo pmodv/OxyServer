@@ -1,5 +1,6 @@
 module OxyServer
 
+export Model, simulate, setValue, getValue, getModel
 
 # mutable because we will update the field value of an existing struct in this server
 mutable struct Model
