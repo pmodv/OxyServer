@@ -5,8 +5,6 @@ using OxyServer
 # initialize default model instance with value 3000
 model = Model(3000)
 
-
-
 # Dummy simulation function
 function simulate(a::Int32)
     model = Model(a)
