@@ -1,5 +1,5 @@
 module OxyServer
-
+using Oxygen
 # every symbol must be listed below for export(i.e. used elsewhere)
 export Model, simulate, setValue, getValue, getModel, bootServer
 
