@@ -19,7 +19,9 @@ end
 
 
 function bootServer()
+    @info "Booting Server"
     serve(host="0.0.0.0")
+     
 end
 
 end # end module
